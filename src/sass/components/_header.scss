@@ -1,4 +1,58 @@
 .header{
-    background-color: red;
+    background: linear-gradient(102.5deg, #FFF6DA 0%, #FFDEF2 100%);
     color: #fff;
+    padding: 35px;
+}
+.container {
+    .logo {
+        margin-right: 20px;
+    }
+    .header__lang {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        img {
+            margin-right: 6px;
+        }
+        a {
+            gap: 6px;
+            text-decoration: none;
+            margin-right: 4px;
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: black;
+        }
+    }
+    .header__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+            border-radius: 24px;
+            margin-right: 8px;
+            padding: 10px 20px;
+        }
+        .btn-primary {
+            background-color: #1E3173;
+        }
+        .btn-outline-primary {
+            color: #1E3173;
+            border-color: #1E3173;
+        }
+        .login {
+            margin-left: 8px;
+            a {
+                margin-right: 8px;
+                text-decoration: none;
+                color: black;
+                font-family: 'Roboto';
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+    }
 }
