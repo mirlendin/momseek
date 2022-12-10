@@ -1,13 +1,77 @@
-.hero {
+.hero{
     background: linear-gradient(102.5deg, #FFF6DA 0%, #FFDEF2 100%);
 }
 
 .hero__family {
+
+    display: flex;
+    justify-content: space-between;
+
     .family__title {
         font-family: 'Raleway';
         font-weight: 700;
-        font-size: 56px;
+        font-size: 46px;
         line-height: 120%;
     }
-    family
+    .family__describe {
+        font-family: 'Raleway';
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+
+.hero__search {
+    margin: 53px 0;
+
+    .search__form {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        width: 284px;
+        height: 64px;
+
+        background: #FFFFFF;
+        border-radius: 32px;
+    }
+    a {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .location__form {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+
+        width: 423px;
+        height: 64px;
+
+        background: #FFFFFF;
+        border-radius: 32px;
+    }
+
+    .btn-primary {
+        background-color: #1E3173;
+        width: 320px;
+        height: 64px;
+
+        border-radius: 32px;
+
+        font-family: 'Roboto';
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 24px;
+    }
+
 }
