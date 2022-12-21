@@ -1,4 +1,104 @@
-.footer{
+footer {
+    margin-top: 100px;
+    width: 100%;
     background-color: black;
-    color: #fff;
+    padding: 44px 0;
+    
+
+
+    .footer__nav {
+        gap: 12px;
+        margin-right: 22px;
+        li {
+            list-style: none;
+
+            a {
+                white-space: nowrap;
+                text-decoration: none;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+
+                color: #FFFFFF;
+            }
+
+        }
+    }
+
+    .footer__language {
+        margin-top: 10px;
+
+        p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            white-space: nowrap;
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #FFFFFF;
+        }
+
+        a {
+            text-decoration: none;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.5px;
+
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            padding: 12px;
+
+            color: #ffffff;
+
+            @media screen and(max-width:580px) {
+                footer {
+                    .container {
+                        display: flex;
+                        flex-direction: column;
+
+                        .footer__nav {
+                            display: flex;
+                            flex-direction: column;
+                            padding: 12px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        div {
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+            }
+
+            .lang_down {
+                width: 12px;
+                height: 8px;
+                margin-left: 5px;
+
+            }
+        }
+    }
+    
 }
