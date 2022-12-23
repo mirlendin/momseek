@@ -181,6 +181,8 @@
             margin-bottom: 32px;
             height: 136px;
             width: 30%;
+
+            
     
             .tabs__link {
 
@@ -226,8 +228,15 @@
         
                     color: white;
                 }
+                
             }
+            
         }
+        .tabs :hover {
+            background-color:#172555;
+            border-radius: 12px;
+
+        }   
     }
 
     
@@ -510,6 +519,11 @@
                 line-height: 100%;
             }
         }
+        
+    }
+    &__cards :hover {
+        background-color: #AAAAAA;
+        color: #000000;
     }
     
 }
@@ -539,7 +553,25 @@
             padding: 16px 16px 0 16px;
             border-radius: 12px;
 
+            .formom__tablet__describe {
+                font-family: 'Raleway';
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 100%;
 
+                color: #FFFFFF;
+
+            }
+
+            .formom__tablet__title {
+                font-family: 'Raleway';
+                font-weight: 800;
+                font-size: 28px;
+                line-height: 100%;
+
+                color: #FFFFFF;
+                margin: 12px;
+            }
 
             .formom__cards__box {
                 width: 100%;
@@ -554,6 +586,7 @@
 
     &__questions {
         max-width: 479px;
+        margin-right: 30px;
 
         h1 {
             font-family: 'Raleway';
